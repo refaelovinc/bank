@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap");
+
+:root {
+  --primarycolor: rgba(225, 53, 53, 0.2);
+  --darkgrey: rgb(82, 66, 66);
+  --brightgrey: rgb(208, 204, 204);
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.2rem;
+  --mainPurpule: rgb(203, 7, 242);
+}
+
+/* global styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Merriweather", serif;
+  color: black;
+  background: white;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+  margin-bottom: 1.25rem;
+}
